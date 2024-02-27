@@ -14,6 +14,8 @@ a {
 aside {
   width: 6%;
   height: 100vh;
+  position:sticky;
+  top: 80px;
 
 }
 main {
@@ -188,11 +190,6 @@ align-items: center;
   
 }
 
-.hamb {
-  margin-top: 80px;
- 
-}
-
 .icon-container {
 
  font-size: 12px;
@@ -214,7 +211,6 @@ align-items: center;
 border-radius: 10px;
 
 }
-
 
 
 
