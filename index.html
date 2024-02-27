@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+<div class="hamb">
+       <div class="icon-container hover">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" width="30px" height="30px" alt="">
+        <p>Home</p>
+       </div>
+       <div class="icon-container hover">
+        <img src="https://freelogopng.com/images/all_img/1685029929youtube-shorts-logo-black.png" width="30px" height="40px" alt="">
+        <p>Shorts</p>
+       </div>
+       
+       <div class="icon-container hover">
+        <img src="https://static.thenounproject.com/png/3862272-200.png" width="40px" height="40px" alt="">
+        <p>Subscriptions</p>
+       </div>
+       
+       <div class="icon-container hover">
+        <img src="https://cdn.icon-icons.com/icons2/933/PNG/512/user-shape_icon-icons.com_72487.png" width="35px" height="35px" alt="">
+        <p>You</p>
+       </div>
+      
+       <div class="icon-container hover">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-download-get-send-arrow-take-30470.png" width="50px" height="50px" alt="">
+        <p>Download</p>
+      
+        
+      </div>
+      <div class="icon-container hover">
+        <img src="https://cdn-icons-png.flaticon.com/512/565/565290.png" width="40px" height="40px" alt="">
+        <p>Library</p>
+      
+        
+      </div>
+      <div class="icon-container hover">
+        <img src="https://cdn.icon-icons.com/icons2/1369/PNG/512/-watch-later_90421.png" width="45px" height="45px" alt="">
+        <p>Watch Later</p>
+      
+        
+      </div>
+    </div>
+      </aside>
+      <main>
+        <header>
+          <div class="top">
+            <img src="assets/logo.png" class="logo" />
+           <div class="search-flex">
+            <div class="search">
+              <form action="">
+                <input type="text" placeholder="Search" />
+                <div class="lens">
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
+                width="16"
+                height="16"
+              />
+              </div>
+              </form>
+            </div>
+             <div class="microphone">
+            <img
+                src="https://i.pinimg.com/originals/74/ce/14/74ce14befb22695743659cf8a8290c2b.png"
+                width="29"
+                height="29"
+              />
+            </div>
+            </div>
+            <div class="icons">
+              <img src="assets/video-plus.svg" alt="" />
+              <img src="assets/bell.svg" alt="" />
+              <img
+                src="https://cdn.icon-icons.com/icons2/933/PNG/512/user-shape_icon-icons.com_72487.png"
+                width="36"
+                height="36"
+                class="loggedin-user"
+              />
+            </div>
+          </div>
+          <div class="categories">
+            <div class="category-wrapper">
+              <button class="category active">All</button>
+              <button class="category">Superhero movies</button>
+              <button class="category">Mixes</button>
+              <button class="category">Music</button>
+              <button class="category">Film criticisms</button>
+              <button class="category">Gaming</button>
+              <button class="category">Counter-Strike 2</button>
+              <button class="category">Nvidia RTX</button>
+              <button class="category">Valorant</button>
+              <button class="category">Xbox</button>
+              <button class="category">Read Dead</button>
+              <button class="category">Action Thrillers</button>
+              <button class="category">Gadgets</button>
+              <button class="category">Live</button>
+            
+            </div>
+          </div>
+        </header>
+
+        <div class="video-wrapper">
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=gmA6MrX81z4"
+              class="thumbnail-link"
+              ><img
+                src="https://i.ytimg.com/vi/gmA6MrX81z4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaCHcdvmPABQZgluCz6R0rYSEnbw"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@RockstarGames">
+                <img
+                  src="https://yt3.googleusercontent.com/r7mISTzNbcLem_plduc_SKMh9KUiP8CWnuhS7H4-CCErF4juXxkrK-5_4LOIMeYl-lXAXMUG=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=gmA6MrX81z4"
+                    >Red Dead Redemption 2 Trailer</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@RockstarGames"
+                    >Rockstar Games</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>24M views</span>
+                  •
+                  <span>7 years ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=QdBZY2fkU-0"
+              class="thumbnail-link"
+              ><img
+                src="https://i.ytimg.com/vi/QdBZY2fkU-0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpeKvBo82hW7HFlC8bnoOjK60hEw"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@RockstarGames">
+                <img
+                  src="https://yt3.googleusercontent.com/r7mISTzNbcLem_plduc_SKMh9KUiP8CWnuhS7H4-CCErF4juXxkrK-5_4LOIMeYl-lXAXMUG=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=QdBZY2fkU-0"
+                    >Grand Theft Auto VI Trailer 1</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@RockstarGames"
+                    >Rockstar Games</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>169M views</span>
+                  •
+                  <span>2 months ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <a
+              href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+              class="thumbnail-link"
+              ><img
+                src="https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1707939055199-ISIAU71OGQHF645HJFDX/Deadpool%2Band%2BWolverine%2Btrailer%2Bbreaks%2Brecord%2Bthumbnail.jpg"
+                width="370"
+                height="208"
+                class="thumbnail"
+              />
+              <div class="timer">2:26</div>
+            </a>
+            <div class="information">
+              <a href="https://www.youtube.com/@VancityReynolds">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_m4QLhY1_lFNnqR596LUG-JOL93bwZXlTHe4tuQjA=s176-c-k-c0x00ffffff-no-rj"
+                  width="36"
+                  height="36"
+                  class="channel-img"
+              /></a>
+              <div class="metadata">
+                <h4 class="title">
+                  <a href="https://www.youtube.com/watch?v=xW-zNOT4P1A"
+                    >Deadpool & Wolverine Teaser</a
+                  >
+                </h4>
+                <p class="channel-name">
+                  <a href="https://www.youtube.com/@VancityReynolds"
+                    >Ryan Reynolds</a
+                  >
+                </p>
+                <div class="view-counter">
+                  <span>69M views</span>
+                  •
+                  <span>2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
